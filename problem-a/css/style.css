@@ -1,0 +1,56 @@
+/* 1 */
+circle {
+    fill: #5f5f5f;
+}
+
+/* 2 */
+path {
+    stroke: #5f5f5f;
+    stroke-width: 8px;
+}
+
+/* 3 */
+circle.small {
+    fill: white;
+}
+
+/* 4 */
+.contained circle.small {
+    fill: #573d29;
+}
+
+
+/* 5 */
+rect {
+    opacity: 0;
+}
+
+.contained circle, .contained rect:first-of-type {
+    fill: #c0c0c0;
+    stroke: none; 
+    opacity: 1;
+}
+
+
+/* 6 */
+#interactive {
+    fill: #c0c0c0;
+    stroke: #bd250d;
+    stroke-width: 4px;
+}
+
+/* 7 */
+#interactive:hover {
+    fill: #bd250d;
+}
+
+/* 8 */ 
+
+
+
+/* 9 */ 
+path:last-of-type {
+    stroke: none;
+}
+
+
