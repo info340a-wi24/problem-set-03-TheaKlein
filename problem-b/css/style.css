@@ -1,3 +1,5 @@
+/* I numbered these to make it a bit easier to read, but a few might've gone out of
+order due to the spec */
 /* 1 */ 
 * {
     box-sizing:  border-box;
@@ -136,7 +138,7 @@ footer {
     background-color: #3e1305;
 }
 
-/* I included footer a above the nav bar ones, otherwise I got an error */
+/* I included footer a above the nav bar ones, otherwise I got an error*/
 
 footer p {
     margin: 0;
